@@ -101,3 +101,42 @@ elif a == 1:
     print(31)
 else:
     print(28)'''
+
+# цикл for
+
+# последовательность символов
+'''
+for i in range(0, 6):
+    print("AAA")
+for i in range(0, 5):
+    print("BBBB")
+print("E")
+for i in range(0, 9):
+    print("TTTTT")
+print("G")'''
+
+# звёздный прямоугольник
+'''
+a = int(input())
+for i in range(0, a):
+    print("*"*19)'''
+
+# квадрат числа
+'''
+a = int(input())
+for i in range(0, a+1):
+    print("Квадрат числа", i, "равен", i**2)'''
+
+# последовательность чисел 3
+'''
+a = int(input())
+b = int(input())
+for i in range(a, b - 1, -1):
+    if i % 2 == 1:
+        print(i)'''
+
+# таблица умножения
+'''
+a = int(input())
+for i in range(1, 11):
+    print(a, "x", i, "=", a*i)'''
