@@ -140,3 +140,79 @@ for i in range(a, b - 1, -1):
 a = int(input())
 for i in range(1, 11):
     print(a, "x", i, "=", a*i)'''
+
+
+# циклы while
+
+# количество членов
+'''
+a = "what"
+b = -1
+while a != "стоп" and a != "хватит" and a != "достаточно":
+    b += 1
+    a = input()
+print(b)'''
+
+# пока делимся
+'''
+a = 0
+b = []
+while a % 7 == 0:
+    a = int(input())
+    if a % 7 == 0:
+        b.append(a)
+
+for x in b:
+    print(x)'''
+
+# ведьмаку заплатите чеканной монетой
+'''
+a = int(input())
+b = 0
+while a >= 25:
+        b += 1
+        a -= 25
+while a >= 10:
+        b += 1
+        a -= 10
+while a >= 5:
+        b += 1
+        a -= 5
+while a >= 1:
+        b += 1
+        a -= 1
+print(b)'''
+
+# max и min
+'''
+a = int(input())
+max1 = 0
+min1 = 10
+while a > 0:
+    b = a % 10
+    a = a//10
+    if b > max1:
+        max1 = b
+    if b < min1:
+        min1 = b
+print("Максимальная цифра равна ", max1, sep = '')
+print("Минимальная цифра равна ", min1, sep = '')'''
+
+# одинаковые числа
+'''
+a = int(input())
+b = a % 10
+d = 0
+f = 0
+while a > 0:
+    c = a % 10
+    a = a // 10
+    if b != c:
+        f = 1
+    else:
+        d = 1
+if f == 1:
+    print("NO")
+elif d == 1:
+    print("YES")'''
+    
